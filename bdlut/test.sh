@@ -1,0 +1,49 @@
+#!/usr/bin/bash
+# python3 test.py \
+# --msb hdb --lsb hd  \
+# --upscale 2 2 \
+# --act-fn relu --n-filters 64
+
+
+# python3 test.py \
+# --msb hd --lsb hd  \
+# --upscale 4 \
+# --act-fn relu --n-filters 64
+
+
+# python3 test.py \
+# --msb hdb --lsb hd  \
+# --upscale 4 \
+# --act-fn relu --n-filters 64
+
+
+# python3 test.py \
+# --msb hd --lsb hdb  \
+# --upscale 4 \
+# --act-fn relu --n-filters 64
+
+
+# python3 test.py \
+# --msb hdb --lsb hd  \
+# --upscale 1 4 \
+# --act-fn relu --n-filters 64
+
+# python test.py \
+# --msb hdb --lsb hd  \
+# --upscale 2 1 2 \
+# --act-fn relu --n-filters 64 \
+
+# python test.py \
+# --msb hdb --lsb hd  \
+# --upscale 1 2 2 \
+# --act-fn relu --n-filters 64 \
+
+# python test.py \
+# --msb hdb --lsb hd  \
+# --upscale 2 2 1 \
+# --act-fn relu --n-filters 64 \
+
+python test.py \
+--msb hl --lsb hd  \
+--upscale 2 2  \
+--act-fn relu --n-filters 64 \
